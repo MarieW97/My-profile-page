@@ -1,0 +1,103 @@
+body {
+  background: url(./images/forest.jpeg);
+  background-size: 100% 100%;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  color: #001d3d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 900;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 27px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+h3 {
+  font-size: 27px;
+  font-weight: 600;
+  margin-top:0px;
+}
+
+#introduction p {
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #24004674;
+}
+
+.img-circle {
+  width: 120px;
+  height: auto;
+  clip-path: circle();
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+  opacity: 0.8;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 350px;
+  }
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list > li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+.list i:hover {
+  color: rgb(6, 44, 26);
+}
+
+.btn {
+  background-color: #240046 ;
+  color: white;
+  font-weight: bold;
+  padding: 13px 20px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: rgb(6, 44, 26) ;
+}
